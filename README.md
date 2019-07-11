@@ -44,7 +44,7 @@ The build results will be in the `public/lib` folder.
 
 ## Motivation
 
-- You can refer to the original user stories [here](https://ci.linagora.com/linagora/lgs/openpaas/linagora.esn.calendar/issues/1667). TL;DR: I'm rebuilding the frontend part of the planning view to support infinite scroll using Web Components since we don't really want to use AngularJS to build a new feature.
+- You can refer to the original user stories [here](https://ci.linagora.com/linagora/lgs/openpaas/linagora.esn.calendar/issues/1667). TL;DR: I'm rebuilding the frontend part of the planning view to support infinite scroll using Web Components since we don't really want to use AngularJS to build a new feature. The purpose of using Web Components here is that they will act as an interop layer that help glues UI frameworks/libraries together.
 
 ## Benefits
 
@@ -55,7 +55,7 @@ The build results will be in the `public/lib` folder.
 
 ### Benefits of building Web Components with VueJS
 
-- _...to be updated_
+- Web Components built with VueJS can't really out-benefit those built with SolidJS. There's one benefit I can think of is that the developers wouldn't have to learn a new way of writing code in an another library.
 
 ## Caveats
 
