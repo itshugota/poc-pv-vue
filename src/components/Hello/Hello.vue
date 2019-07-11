@@ -83,5 +83,5 @@
 </script>
 
 <style lang="scss">
-  @import './InfiniteEvents';
+  @import './Hello';
 </style>
