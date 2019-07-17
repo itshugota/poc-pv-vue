@@ -142,7 +142,7 @@ Web Components built with VueJS can't really out-benefit those built with SolidJ
 
 - **Critical `vue-web-component-wrapper`'s bug**: Setting props before mounting the web component causes them to be overwritten by default values (https://github.com/vuejs/vue-web-component-wrapper/issues/34). That means we have to can't really use Web Components built with `vue-web-component-wrapper` since we would have to use `setTimeout` everywhere as a workaround to fix this issue.
 - **Bundle size**: The VueJS core library _and_ `vue-web-component-wrapper` weigh about 69.2kB minified, and 25.2kB minified & gzipped. The component itself weighs about 11.9kB minified and 3.4kb minified & gzipped.
-- **Styling**: There are some problems regarding using Web Components in a (UI) Design System. For example, how do you build a WC using SolidJS and you need to use a Material Button inside it? This can't be solved unless you also use Web Components to build the Material UI elements.
+- **Styling**: There are some problems regarding using Web Components in a (UI) Design System. For example, how do you build a WC using VueJS and you need to use a Material Button inside it? This can't be solved unless you also use Web Components to build the Material UI elements.
 - AngularJS 1.3.20 doesn't support `ng-prop-*` and `ng-on-*` which are great syntactic sugar for Web Components.
 
 ## How to run this POC
